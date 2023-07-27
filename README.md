@@ -1,1 +1,3 @@
-# SMS
+# SCHOOL MANAGEMENT SYSTEM
+
+## Requirements
