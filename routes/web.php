@@ -25,3 +25,6 @@ Route::get('/student', function () {
     return view('student/student_dashboard');
 });
 
+Route::get('/meals', function () {
+    return view('admin/restaurant/meals');
+});
