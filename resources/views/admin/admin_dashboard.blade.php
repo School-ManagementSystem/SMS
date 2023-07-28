@@ -308,7 +308,7 @@
       <li class="nav-item">
         <a class="nav-link collapsed" href="#">
           <i class="bi bi-card-list"></i>
-          <span>Hosel</span>
+          <span>Hostel</span>
         </a>
       </li><!-- End Register Page Nav -->
 
@@ -320,10 +320,23 @@
       </li><!-- End Login Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#">
-          <i class="bi bi-dash-circle"></i>
-          <span>Restaurant</span>
+        <a class="nav-link collapsed" data-bs-target="#restaurant-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i><span>Restaurant</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
+        <ul id="restaurant-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="meals">
+              <i class="bi bi-circle"></i><span>Add a dish</span>
+              {{-- TODO --}}
+              {{-- fEtch 5 dishes and prices --}}
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="bi bi-circle"></i><span>Print Receipt</span>
+            </a>
+          </li>
+        </ul>
       </li><!-- End Error 404 Page Nav -->
 
       <li class="nav-item">
