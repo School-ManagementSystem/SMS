@@ -21,10 +21,18 @@ Route::get('/admin', function () {
     return view('admin/admin_dashboard');
 });
 
+Route::get('/meals', function () {
+    return view('admin/restaurant/meals');
+});
+
 Route::get('/student', function () {
     return view('student/student_dashboard');
 });
 
-Route::get('/meals', function () {
-    return view('admin/restaurant/meals');
+Route::get('/borrow', function () {
+    return view('student/library/borrow');
+});
+
+Route::get('/borrowed_books', function () {
+    return view('student/library/borrowed');
 });
